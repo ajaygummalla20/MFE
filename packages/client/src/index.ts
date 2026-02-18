@@ -1,5 +1,5 @@
 /**
- * @mfe/micro-frontend-client
+ * @ajay_gummalla/micro-frontend-client
  * 
  * Helper utilities for building micro-frontend client applications
  */

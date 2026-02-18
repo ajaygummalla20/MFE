@@ -1,7 +1,7 @@
 /**
  * React-specific helpers for micro-frontends
  * 
- * NOTE: Import this from '@mfe/micro-frontend-client/react'
+ * NOTE: Import this from '@ajay_gummalla/micro-frontend-client/react'
  * React and ReactDOM must be installed in your project
  */
 
@@ -15,7 +15,7 @@ import { registerMicroFrontend } from '../core/lifecycle';
  * ```typescript
  * import React from 'react';
  * import ReactDOM from 'react-dom/client';
- * import { createReactMicroFrontend } from '@mfe/micro-frontend-client/react';
+ * import { createReactMicroFrontend } from '@ajay_gummalla/micro-frontend-client/react';
  * import App from './App';
  * 
  * createReactMicroFrontend({

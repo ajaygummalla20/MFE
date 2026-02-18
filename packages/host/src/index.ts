@@ -1,5 +1,5 @@
 /**
- * @mfe/micro-frontend-host
+ * @ajay_gummalla/micro-frontend-host
  * 
  * Angular library for hosting micro-frontends from any framework without iframes
  */

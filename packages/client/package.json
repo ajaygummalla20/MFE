@@ -19,7 +19,7 @@
         "microfrontends",
         "client"
     ],
-    "author": "mfe",
+    "author": "ajay_gummalla",
     "license": "MIT",
     "peerDependencies": {},
     "devDependencies": {

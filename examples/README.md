@@ -18,14 +18,14 @@ npx create-react-app sales-dashboard
 cd sales-dashboard
 
 # Install client package
-npm install @mfe/micro-frontend-client
+npm install @ajay_gummalla/micro-frontend-client
 ```
 
 **src/index.js:**
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createReactMicroFrontend } from '@mfe/micro-frontend-client/react';
+import { createReactMicroFrontend } from '@ajay_gummalla/micro-frontend-client/react';
 import App from './App';
 
 createReactMicroFrontend({
@@ -67,13 +67,13 @@ npm create vue@latest inventory-app
 cd inventory-app
 
 # Install client package
-npm install @mfe/micro-frontend-client
+npm install @ajay_gummalla/micro-frontend-client
 ```
 
 **src/main.js:**
 ```javascript
 import { createApp } from 'vue';
-import { createVueMicroFrontend } from '@mfe/micro-frontend-client/vue';
+import { createVueMicroFrontend } from '@ajay_gummalla/micro-frontend-client/vue';
 import App from './App.vue';
 
 createVueMicroFrontend({
@@ -116,14 +116,14 @@ ng new host-app
 cd host-app
 
 # Install host package
-npm install @mfe/micro-frontend-host
+npm install @ajay_gummalla/micro-frontend-host
 ```
 
 #### Option A: NgModule-based (Traditional)
 
 **app.module.ts:**
 ```typescript
-import { MicroFrontendHostModule } from '@mfe/micro-frontend-host';
+import { MicroFrontendHostModule } from '@ajay_gummalla/micro-frontend-host';
 
 @NgModule({
   imports: [
@@ -136,7 +136,7 @@ export class AppModule { }
 
 **app-routing.module.ts:**
 ```typescript
-import { DynamicAppLoaderComponent } from '@mfe/micro-frontend-host';
+import { DynamicAppLoaderComponent } from '@ajay_gummalla/micro-frontend-host';
 
 const routes: Routes = [
   {
@@ -166,7 +166,7 @@ const routes: Routes = [
 ```typescript
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
-import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@mfe/micro-frontend-host';
+import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@ajay_gummalla/micro-frontend-host';
 import { AppComponent } from './app/app.component';
 
 bootstrapApplication(AppComponent, {

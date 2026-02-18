@@ -6,20 +6,20 @@ Welcome to the Micro-Frontend NPM Packages monorepo!
 
 This project contains **TWO NPM packages** that enable micro-frontend architecture:
 
-### 1. @mfe/micro-frontend-host
+### 1. @ajay_gummalla/micro-frontend-host
 **For Parent/Host Applications (Angular)**
 
 Install in your main Angular app to load external micro-frontends:
 ```bash
-npm install @mfe/micro-frontend-host
+npm install @ajay_gummalla/micro-frontend-host
 ```
 
-### 2. @mfe/micro-frontend-client  
+### 2. @ajay_gummalla/micro-frontend-client  
 **For Child Applications (React/Vue/Angular/Svelte)**
 
 Install in your micro-frontend apps:
 ```bash
-npm install @mfe/micro-frontend-client
+npm install @ajay_gummalla/micro-frontend-client
 ```
 
 ## Quick Setup
@@ -33,7 +33,7 @@ pnpm build
 ### Package Structure
 ```
 packages/
-├── host/                 # @mfe/micro-frontend-host
+├── host/                 # @ajay_gummalla/micro-frontend-host
 │   ├── src/
 │   │   ├── lib/
 │   │   │   ├── components/      # DynamicAppLoaderComponent
@@ -46,7 +46,7 @@ packages/
 │   ├── tsconfig.json
 │   └── README.md
 │
-└── client/               # @mfe/micro-frontend-client
+└── client/               # @ajay_gummalla/micro-frontend-client
     ├── src/
     │   ├── core/               # Core types & lifecycle
     │   ├── frameworks/
@@ -64,7 +64,7 @@ packages/
 ```
 ┌─────────────────────────────────────────────┐
 │   Angular Host App (Port 4200)             │
-│   Uses: @mfe/micro-frontend-host    │
+│   Uses: @ajay_gummalla/micro-frontend-host    │
 │                                             │
 │   URL: http://localhost:4200/home/sales    │
 ├─────────────────────────────────────────────┤
@@ -91,7 +91,7 @@ packages/
 **Step 1: Import module in app.module.ts**
 ```typescript
 // app.module.ts
-import { MicroFrontendHostModule } from '@mfe/micro-frontend-host';
+import { MicroFrontendHostModule } from '@ajay_gummalla/micro-frontend-host';
 
 @NgModule({
   imports: [MicroFrontendHostModule]
@@ -102,7 +102,7 @@ export class AppModule { }
 **Step 2: Configure routes in app-routing.module.ts**
 ```typescript
 // app-routing.module.ts
-import { DynamicAppLoaderComponent } from '@mfe/micro-frontend-host';
+import { DynamicAppLoaderComponent } from '@ajay_gummalla/micro-frontend-host';
 
 const routes = [
   {
@@ -125,7 +125,7 @@ const routes = [
 import { bootstrapApplication } from '@angular/platform-browser';
 import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
-import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@mfe/micro-frontend-host';
+import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@ajay_gummalla/micro-frontend-host';
 
 bootstrapApplication(AppComponent, {
   providers: [
@@ -150,7 +150,7 @@ bootstrapApplication(AppComponent, {
 // app.config.ts
 import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@mfe/micro-frontend-host';
+import { DynamicAppLoaderComponent, ExternalAppLoaderService } from '@ajay_gummalla/micro-frontend-host';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -184,7 +184,7 @@ bootstrapApplication(AppComponent, appConfig);
 
 ```javascript
 // index.js
-import { createReactMicroFrontend } from '@mfe/micro-frontend-client/react';
+import { createReactMicroFrontend } from '@ajay_gummalla/micro-frontend-client/react';
 import App from './App';
 
 createReactMicroFrontend({
@@ -199,7 +199,7 @@ createReactMicroFrontend({
 
 ```javascript
 // main.js
-import { createVueMicroFrontend } from '@mfe/micro-frontend-client/vue';
+import { createVueMicroFrontend } from '@ajay_gummalla/micro-frontend-client/vue';
 import App from './App.vue';
 
 createVueMicroFrontend({
@@ -228,7 +228,7 @@ cd packages/host
 npm link
 
 # In your test Angular project
-npm link @mfe/micro-frontend-host
+npm link @ajay_gummalla/micro-frontend-host
 ```
 
 ## Publishing to NPM

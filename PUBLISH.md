@@ -17,8 +17,8 @@ npm org create mfe
 
 2. **Update package access:**
 ```bash
-npm access public @mfe/micro-frontend-host
-npm access public @mfe/micro-frontend-client
+npm access public @ajay_gummalla/micro-frontend-host
+npm access public @ajay_gummalla/micro-frontend-client
 ```
 
 ### Publishing Packages
@@ -71,7 +71,7 @@ cd packages/host
 npm link
 
 # In test project
-npm link @mfe/micro-frontend-host
+npm link @ajay_gummalla/micro-frontend-host
 ```
 
 2. **Pack and test:**
@@ -85,13 +85,13 @@ npm install ../path/to/mfe-micro-frontend-host-1.0.0.tgz
 ## After Publishing
 
 1. **Verify on npm:**
-- https://www.npmjs.com/package/@mfe/micro-frontend-host
-- https://www.npmjs.com/package/@mfe/micro-frontend-client
+- https://www.npmjs.com/package/@ajay_gummalla/micro-frontend-host
+- https://www.npmjs.com/package/@ajay_gummalla/micro-frontend-client
 
 2. **Test installation:**
 ```bash
-npm install @mfe/micro-frontend-host
-npm install @mfe/micro-frontend-client
+npm install @ajay_gummalla/micro-frontend-host
+npm install @ajay_gummalla/micro-frontend-client
 ```
 
 ## Automated Publishing (CI/CD Automated Publishing (CI/CD)

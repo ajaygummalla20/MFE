@@ -1,7 +1,7 @@
 /**
  * Vue-specific helpers for micro-frontends
  * 
- * NOTE: Import this from '@mfe/micro-frontend-client/vue'
+ * NOTE: Import this from '@ajay_gummalla/micro-frontend-client/vue'
  * Vue must be installed in your project
  */
 
@@ -14,7 +14,7 @@ import { registerMicroFrontend } from '../core/lifecycle';
  * @example
  * ```typescript
  * import { createApp } from 'vue';
- * import { createVueMicroFrontend } from '@mfe/micro-frontend-client/vue';
+ * import { createVueMicroFrontend } from '@ajay_gummalla/micro-frontend-client/vue';
  * import App from './App.vue';
  * 
  * createVueMicroFrontend({

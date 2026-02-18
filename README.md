@@ -4,10 +4,10 @@ A monorepo containing NPM packages for building micro-frontend architectures wit
 
 ## Packages
 
-### 📦 [@mfe/micro-frontend-host](./packages/host)
+### 📦 [@ajay_gummalla/micro-frontend-host](./packages/host)
 Angular library for hosting micro-frontends (parent/container application)
 
-### 📦 [@mfe/micro-frontend-client](./packages/client)  
+### 📦 [@ajay_gummalla/micro-frontend-client](./packages/client)  
 Helper utilities for child applications (React, Vue, Angular, Svelte)
 
 ## Quick Start
@@ -44,7 +44,7 @@ pnpm publish:all
 ```
 ┌─────────────────────────────────────────┐
 │   Host App (Angular)                    │
-│   uses @mfe/micro-frontend-host │
+│   uses @ajay_gummalla/micro-frontend-host │
 ├─────────────────────────────────────────┤
 │                                         │
 │   ┌──────────────┐  ┌──────────────┐  │
@@ -52,7 +52,7 @@ pnpm publish:all
 │   │ (Sales)      │  │ (Inventory)  │  │
 │   └──────────────┘  └──────────────┘  │
 │                                         │
-│   Both use @mfe/micro-frontend- │
+│   Both use @ajay_gummalla/micro-frontend- │
 │            client                       │
 └─────────────────────────────────────────┘
 ```

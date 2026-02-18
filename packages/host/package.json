@@ -1,5 +1,5 @@
 {
-    "name": "@mfe/micro-frontend-host",
+    "name": "@ajay_gummalla/micro-frontend-host",
     "version": "1.0.0",
     "description": "Angular library for hosting micro-frontends without iframes",
     "main": "dist/index.js",
@@ -18,7 +18,7 @@
         "spa",
         "microfrontends"
     ],
-    "author": "mfe",
+    "author": "ajay_gummalla",
     "license": "MIT",
     "peerDependencies": {
         "@angular/core": ">=14.0.0",

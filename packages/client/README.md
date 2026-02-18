@@ -1,18 +1,18 @@
-# @mfe/micro-frontend-client
+# @ajay_gummalla/micro-frontend-client
 
-[![npm version](https://img.shields.io/npm/v/@mfe/micro-frontend-client.svg)](https://www.npmjs.com/package/@mfe/micro-frontend-client)
+[![npm version](https://img.shields.io/npm/v/@ajay_gummalla/micro-frontend-client.svg)](https://www.npmjs.com/package/@ajay_gummalla/micro-frontend-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Helper utilities for building micro-frontend client applications that integrate with [@mfe/micro-frontend-host](https://www.npmjs.com/package/@mfe/micro-frontend-host).
+Helper utilities for building micro-frontend client applications that integrate with [@ajay_gummalla/micro-frontend-host](https://www.npmjs.com/package/@ajay_gummalla/micro-frontend-host).
 
 ## Installation
 
 ```bash
-npm install @mfe/micro-frontend-client
+npm install @ajay_gummalla/micro-frontend-client
 # or
-pnpm add @mfe/micro-frontend-client
+pnpm add @ajay_gummalla/micro-frontend-client
 # or
-yarn add @mfe/micro-frontend-client
+yarn add @ajay_gummalla/micro-frontend-client
 ```
 
 ## Quick Start
@@ -21,7 +21,7 @@ yarn add @mfe/micro-frontend-client
 
 ```typescript
 import React from 'react';
-import { createReactMicroFrontend } from '@mfe/micro-frontend-client';
+import { createReactMicroFrontend } from '@ajay_gummalla/micro-frontend-client';
 import App from './App';
 
 createReactMicroFrontend({
@@ -46,7 +46,7 @@ function App({ config, onNavigate }) {
 
 ```typescript
 import { createApp } from 'vue';
-import { createVueMicroFrontend } from '@mfe/micro-frontend-client';
+import { createVueMicroFrontend } from '@ajay_gummalla/micro-frontend-client';
 import App from './App.vue';
 import router from './router';
 import store from './store';
@@ -81,7 +81,7 @@ const goHome = () => onNavigate('/home');
 ### Vanilla JavaScript
 
 ```typescript
-import { createVanillaMicroFrontend } from '@mfe/micro-frontend-client';
+import { createVanillaMicroFrontend } from '@ajay_gummalla/micro-frontend-client';
 
 createVanillaMicroFrontend({
   name: 'myVanillaApp',
@@ -107,7 +107,7 @@ createVanillaMicroFrontend({
 ### Simple DOM App
 
 ```typescript
-import { createDOMApp } from '@mfe/micro-frontend-client';
+import { createDOMApp } from '@ajay_gummalla/micro-frontend-client';
 
 createDOMApp({
   name: 'myDOMApp',
@@ -120,7 +120,7 @@ createDOMApp({
 ## Manual Registration
 
 ```typescript
-import { registerMicroFrontend } from '@mfe/micro-frontend-client';
+import { registerMicroFrontend } from '@ajay_gummalla/micro-frontend-client';
 
 registerMicroFrontend({
   name: 'myCustomApp',
@@ -145,7 +145,7 @@ import {
   MicroFrontendMountProps,
   MicroFrontendApp,
   MicroFrontendConfig
-} from '@mfe/micro-frontend-client';
+} from '@ajay_gummalla/micro-frontend-client';
 
 const app: MicroFrontendApp = {
   mount: (props: MicroFrontendMountProps) => {

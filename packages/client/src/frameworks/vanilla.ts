@@ -10,7 +10,7 @@ import { registerMicroFrontend } from '../core/lifecycle';
  * 
  * @example
  * ```typescript
- * import { createVanillaMicroFrontend } from '@mfe/micro-frontend-client';
+ * import { createVanillaMicroFrontend } from '@ajay_gummalla/micro-frontend-client';
  * 
  * createVanillaMicroFrontend({
  *   name: 'myVanillaApp',

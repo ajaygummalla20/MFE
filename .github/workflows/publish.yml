@@ -28,14 +28,14 @@ jobs:
       - name: Build packages
         run: pnpm build
 
-      - name: Publish @mfe/micro-frontend-host
+      - name: Publish @ajay_gummalla/micro-frontend-host
         run: |
           cd packages/host
           npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Publish @mfe/micro-frontend-client
+      - name: Publish @ajay_gummalla/micro-frontend-client
         run: |
           cd packages/client
           npm publish --access public
