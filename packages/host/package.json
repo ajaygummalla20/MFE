@@ -1,6 +1,6 @@
 {
     "name": "@ajay_gummalla/micro-frontend-host",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Angular library for hosting micro-frontends without iframes",
     "scripts": {
         "build": "ng-packagr -p ng-package.json",

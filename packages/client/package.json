@@ -1,6 +1,6 @@
 {
     "name": "@ajay_gummalla/micro-frontend-client",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Helper utilities for building micro-frontend client applications",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
