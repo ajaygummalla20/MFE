@@ -57,6 +57,54 @@ pnpm publish:all
 └─────────────────────────────────────────┘
 ```
 
+## Features
+
+### Current (v1.x)
+✅ **No iframes** - Direct DOM mounting for better performance  
+✅ **Framework agnostic** - Support for React, Vue, Angular, Svelte  
+✅ **TypeScript first** - Full type definitions included  
+✅ **Easy integration** - Simple API for both host and clients  
+✅ **Standalone & NgModule** - Support for both Angular architectures  
+✅ **Route-based loading** - Load micro-frontends via Angular routing  
+✅ **Props & events** - Pass data and communicate between apps  
+
+## Roadmap
+
+### v2.0.0 - Lazy Loading & Module Federation (Planned)
+🔄 **Route-level lazy loading** - Load only specific routes/chunks instead of entire apps  
+🔄 **Webpack Module Federation** - Native module federation support  
+🔄 **Chunk mapping** - Configure route-to-chunk mappings  
+🔄 **Code splitting optimization** - Better bundle size management  
+🔄 **Enhanced configuration** - More granular control over loading strategies  
+
+### v3.0.0 - Performance & DevEx (Future)
+🔜 **Smart preloading** - Intelligent prefetching of likely routes  
+🔜 **Performance monitoring** - Built-in metrics and analytics  
+🔜 **Developer tools** - Browser extension for debugging  
+🔜 **Hot module replacement** - HMR support for micro-frontends  
+🔜 **Shared dependencies** - Optimize common library loading  
+
+### Community Requests
+Have a feature request? [Open an issue](https://github.com/ajaygummalla20/MFE/issues/new) on GitHub!
+
+## Documentation
+
+- 📖 [Getting Started Guide](./GETTING_STARTED.md)
+- 📦 [Host Package Documentation](./packages/host/README.md)
+- 📦 [Client Package Documentation](./packages/client/README.md)
+- 💡 [Usage Examples](./examples/README.md)
+- 🚀 [Publishing Guide](./PUBLISH.md)
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+- 📖 [Documentation](./GETTING_STARTED.md)
+- 💬 [GitHub Issues](https://github.com/ajaygummalla20/MFE/issues)
+- 🔗 [NPM Packages](https://www.npmjs.com/~ajay_gummalla)
+
 ## License
 
 MIT
