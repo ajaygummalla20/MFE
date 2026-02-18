@@ -1,6 +1,6 @@
 {
     "name": "@ajay_gummalla/micro-frontend-host",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Angular library for hosting micro-frontends without iframes",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
