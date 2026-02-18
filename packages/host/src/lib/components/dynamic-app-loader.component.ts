@@ -9,14 +9,14 @@ import {
     ChangeDetectorRef
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { ExternalAppLoaderService } from '../services/external-app-loader.service';
 import { LoadedMicroFrontend } from '../models/micro-frontend.models';
 
 @Component({
     selector: 'mf-dynamic-app-loader',
     standalone: true,
-    imports: [CommonModule],
+    imports: [CommonModule, RouterModule],
     template: `
     <div class="mf-dynamic-app-wrapper">
       <div *ngIf="loading" class="mf-loading-container">
