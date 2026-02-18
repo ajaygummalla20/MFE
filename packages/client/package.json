@@ -1,0 +1,39 @@
+{
+    "name": "@mfe/micro-frontend-client",
+    "version": "1.0.0",
+    "description": "Helper utilities for building micro-frontend client applications",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsc --watch",
+        "clean": "rm -rf dist",
+        "prepublishOnly": "pnpm build"
+    },
+    "keywords": [
+        "micro-frontend",
+        "react",
+        "vue",
+        "angular",
+        "svelte",
+        "microfrontends",
+        "client"
+    ],
+    "author": "mfe",
+    "license": "MIT",
+    "peerDependencies": {},
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "react": "^18.2.0",
+        "vue": "^3.4.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mfe/micro-frontend-client.git"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ]
+}

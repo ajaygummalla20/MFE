@@ -1,0 +1,31 @@
+{
+    "name": "micro-frontend-packages",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Monorepo for micro-frontend NPM packages",
+    "scripts": {
+        "build": "pnpm --filter \"./packages/**\" run build",
+        "build:host": "pnpm --filter @mfe/micro-frontend-host run build",
+        "build:client": "pnpm --filter @mfe/micro-frontend-client run build",
+        "clean": "pnpm --filter \"./packages/**\" run clean",
+        "test": "pnpm --filter \"./packages/**\" run test",
+        "publish:all": "pnpm --filter \"./packages/**\" publish"
+    },
+    "keywords": [
+        "micro-frontend",
+        "microfrontends",
+        "angular",
+        "react",
+        "vue",
+        "module-federation"
+    ],
+    "author": "mfe",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "pnpm": ">=8.0.0"
+    }
+}
