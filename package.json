@@ -22,7 +22,7 @@
     "author": "ajay_gummalla",
     "license": "MIT",
     "devDependencies": {
-        "typescript": "^5.3.3"
+        "typescript": "5.8.3"
     },
     "engines": {
         "node": ">=18.0.0",

@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       typescript:
-        specifier: ^5.3.3
-        version: 5.9.3
+        specifier: 5.8.3
+        version: 5.8.3
 
   packages/client:
     devDependencies:
@@ -18,11 +18,11 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1
       typescript:
-        specifier: ^5.3.3
-        version: 5.9.3
+        specifier: 5.8.3
+        version: 5.8.3
       vue:
         specifier: ^3.4.0
-        version: 3.5.28(typescript@5.9.3)
+        version: 3.5.28(typescript@5.8.3)
 
   packages/host:
     devDependencies:
@@ -44,6 +44,9 @@ importers:
       rxjs:
         specifier: ^7.8.1
         version: 7.8.2
+      tslib:
+        specifier: ^2.8.1
+        version: 2.8.1
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -1242,11 +1245,6 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
-
   update-browserslist-db@1.2.3:
     resolution: {integrity: sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==}
     hasBin: true
@@ -1821,11 +1819,11 @@ snapshots:
       '@vue/shared': 3.5.28
       csstype: 3.2.3
 
-  '@vue/server-renderer@3.5.28(vue@3.5.28(typescript@5.9.3))':
+  '@vue/server-renderer@3.5.28(vue@3.5.28(typescript@5.8.3))':
     dependencies:
       '@vue/compiler-ssr': 3.5.28
       '@vue/shared': 3.5.28
-      vue: 3.5.28(typescript@5.9.3)
+      vue: 3.5.28(typescript@5.8.3)
 
   '@vue/shared@3.5.28': {}
 
@@ -2343,8 +2341,6 @@ snapshots:
 
   typescript@5.8.3: {}
 
-  typescript@5.9.3: {}
-
   update-browserslist-db@1.2.3(browserslist@4.28.1):
     dependencies:
       browserslist: 4.28.1
@@ -2353,15 +2349,15 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vue@3.5.28(typescript@5.9.3):
+  vue@3.5.28(typescript@5.8.3):
     dependencies:
       '@vue/compiler-dom': 3.5.28
       '@vue/compiler-sfc': 3.5.28
       '@vue/runtime-dom': 3.5.28
-      '@vue/server-renderer': 3.5.28(vue@3.5.28(typescript@5.9.3))
+      '@vue/server-renderer': 3.5.28(vue@3.5.28(typescript@5.8.3))
       '@vue/shared': 3.5.28
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 5.8.3
 
   wcwidth@1.0.1:
     dependencies:
