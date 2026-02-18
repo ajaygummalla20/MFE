@@ -189,7 +189,7 @@ module.exports = {
 
 ## Complete Example
 
-See our [examples repository](https://github.com/mfe/micro-frontend-examples) for complete working examples.
+See the [examples folder](https://github.com/ajaygummalla20/MFE/tree/main/examples) for complete working examples.
 
 ## API Reference
 

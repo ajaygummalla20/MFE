@@ -261,7 +261,7 @@ pnpm publish:all
 ## Support
 
 - 📖 [Documentation](./README.md)  
-- 💬 [Issues](https://github.com/mfe/micro-frontend-packages/issues)  
+- 💬 [Issues](https://github.com/ajaygummalla20/MFE/issues)  
 - 🚀 [Examples](./examples/)  
 
 ## License
