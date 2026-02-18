@@ -31,7 +31,7 @@ importers:
         version: 19.2.18(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2)
       '@angular/compiler-cli':
         specifier: ^19.2.18
-        version: 19.2.18(@angular/compiler@19.2.18)(typescript@5.7.3)
+        version: 19.2.18(@angular/compiler@19.2.18)(typescript@5.8.3)
       '@angular/core':
         specifier: ^19.0.0
         version: 19.2.18(rxjs@7.8.2)(zone.js@0.15.1)
@@ -40,13 +40,13 @@ importers:
         version: 19.2.18(@angular/common@19.2.18(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.15.1))(@angular/platform-browser@19.2.18(@angular/common@19.2.18(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.15.1))(rxjs@7.8.2))(@angular/core@19.2.18(rxjs@7.8.2)(zone.js@0.15.1)))(rxjs@7.8.2)
       ng-packagr:
         specifier: ^19.2.2
-        version: 19.2.2(@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.7.3))(tslib@2.8.1)(typescript@5.7.3)
+        version: 19.2.2(@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.8.3))(tslib@2.8.1)(typescript@5.8.3)
       rxjs:
         specifier: ^7.8.1
         version: 7.8.2
       typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
+        specifier: 5.8.3
+        version: 5.8.3
 
 packages:
 
@@ -1237,8 +1237,8 @@ packages:
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.3:
+    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1302,7 +1302,7 @@ snapshots:
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  '@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.7.3)':
+  '@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.8.3)':
     dependencies:
       '@angular/compiler': 19.2.18
       '@babel/core': 7.26.9
@@ -1312,7 +1312,7 @@ snapshots:
       reflect-metadata: 0.2.2
       semver: 7.7.4
       tslib: 2.8.1
-      typescript: 5.7.3
+      typescript: 5.8.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -2131,9 +2131,9 @@ snapshots:
       sax: 1.4.4
     optional: true
 
-  ng-packagr@19.2.2(@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.7.3))(tslib@2.8.1)(typescript@5.7.3):
+  ng-packagr@19.2.2(@angular/compiler-cli@19.2.18(@angular/compiler@19.2.18)(typescript@5.8.3))(tslib@2.8.1)(typescript@5.8.3):
     dependencies:
-      '@angular/compiler-cli': 19.2.18(@angular/compiler@19.2.18)(typescript@5.7.3)
+      '@angular/compiler-cli': 19.2.18(@angular/compiler@19.2.18)(typescript@5.8.3)
       '@rollup/plugin-json': 6.1.0(rollup@4.57.1)
       '@rollup/wasm-node': 4.57.1
       ajv: 8.18.0
@@ -2155,7 +2155,7 @@ snapshots:
       rxjs: 7.8.2
       sass: 1.97.3
       tslib: 2.8.1
-      typescript: 5.7.3
+      typescript: 5.8.3
     optionalDependencies:
       rollup: 4.57.1
 
@@ -2341,7 +2341,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  typescript@5.7.3: {}
+  typescript@5.8.3: {}
 
   typescript@5.9.3: {}
 
