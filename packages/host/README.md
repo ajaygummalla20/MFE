@@ -165,6 +165,18 @@ window.yourAppName = {
 
 See [@ajay_gummalla/micro-frontend-client](https://www.npmjs.com/package/@ajay_gummalla/micro-frontend-client) for helpers.
 
+## Contributing
+
+Contributions, suggestions, and improvements are welcome! If you have ideas for new features, bug fixes, or enhancements, please feel free to:
+
+- **Open an issue** on [GitHub](https://github.com/ajaygummalla20/MFE/issues) to report bugs or suggest features
+- **Submit a pull request** with your improvements
+- **Share your feedback** to help make this library better
+
+Visit the repository: [https://github.com/ajaygummalla20/MFE](https://github.com/ajaygummalla20/MFE)
+
+We appreciate all contributions from the community!
+
 ## License
 
 MIT
